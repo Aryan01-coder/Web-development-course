@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar using flexbox</title>
+    <style>
+        /* .navbar {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 30px;
+            
+        } */
+
+        /* .item1{
+        } */
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: "segoe UI";
+        }
+
+        .right ul {
+            display: flex;
+            gap: 30px;
+        }
+
+        .right ul li {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .right ul li span{
+            padding: 0px 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="navbar">
+        <div class="item-1"><img src="exercise6.png" alt="">
+        </div>
+   
+        <div class="item-2">Products</div>
+        <div class="item-3">Pricing</div>
+        <div class="item-4">Resources</div>
+        <div class="item-5">About us</div>
+        <div class="item-6">Security and Appliances</div>
+        <div class="item-7"><img src="exercise6,1.png" alt=""></div> -->
+    <!-- </div> -->
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="exercise6.png" alt="">
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li><span>Products</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15"
+                            height="15" color="#000000" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M16 10.5C16 10.5 13.054 13.5 12 13.5C10.9459 13.5 8 10.5 8 10.5"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg></li>
+                    <li><span>Pricing</span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15"
+                            height="15" color="#000000" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M16 10.5C16 10.5 13.054 13.5 12 13.5C10.9459 13.5 8 10.5 8 10.5"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg></li>
+                    <li><span>Resources</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15"
+                            height="15" color="#000000" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M16 10.5C16 10.5 13.054 13.5 12 13.5C10.9459 13.5 8 10.5 8 10.5"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg></li>
+                    <li><span>About us</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15"
+                            height="15" color="#000000" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M16 10.5C16 10.5 13.054 13.5 12 13.5C10.9459 13.5 8 10.5 8 10.5"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg></li>
+                    <li><img src="exercise6,1.png" alt=""></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
